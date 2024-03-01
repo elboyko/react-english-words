@@ -1,0 +1,122 @@
+[
+   {
+      "id": "15272",
+      "english": "dog",
+      "transcription": "[dɒg]",
+      "russian": "собака",
+      "tags": "Animals",
+      "tags_json": "[\"Animals\"]"
+   },
+   {
+      "id": "15274",
+      "english": "money",
+      "transcription": "[ˈmʌnɪ]",
+      "russian": "деньги",
+      "tags": "Business",
+      "tags_json": "[\"Business\"]"
+   },
+   {
+      "id": "15278",
+      "english": "monkey",
+      "transcription": "[monkey]",
+      "russian": "обезьяна",
+      "tags": "Animals",
+      "tags_json": "[\"Animals\"]"
+   },
+   {
+      "id": "15279",
+      "english": "orange",
+      "transcription": "[orange]",
+      "russian": "оранжевый",
+      "tags": "Colors",
+      "tags_json": "[\"Colors\"]"
+   },
+   {
+      "id": "15281",
+      "english": "lesson",
+      "transcription": "[lesson]",
+      "russian": "урок",
+      "tags": "General",
+      "tags_json": "[\"General\"]"
+   },
+   {
+      "id": "15286",
+      "english": "test",
+      "transcription": "[test]",
+      "russian": "тест",
+      "tags": "General",
+      "tags_json": "[\"General\"]"
+   },
+   {
+      "id": "15289",
+      "english": "cat",
+      "transcription": "[kæt]",
+      "russian": "кошка",
+      "tags": "Animals",
+      "tags_json": "[\"Animals\"]"
+   },
+   {
+      "id": "15291",
+      "english": "flower",
+      "transcription": "[flower]",
+      "russian": "цветок",
+      "tags": "General",
+      "tags_json": "[\"General\"]"
+   },
+   {
+      "id": "15297",
+      "english": "love",
+      "transcription": "[lʌv]",
+      "russian": "любовь",
+      "tags": "General",
+      "tags_json": "[\"General\"]"
+   },
+   {
+      "id": "15302",
+      "english": "no",
+      "transcription": "[nou]",
+      "russian": "нет",
+      "tags": "general",
+      "tags_json": "[\"general\"]"
+   },
+   {
+      "id": "15303",
+      "english": "yes",
+      "transcription": "yes",
+      "russian": "yes",
+      "tags": "yes",
+      "tags_json": "[\"yes\"]"
+   },
+   {
+      "id": "15304",
+      "english": "test",
+      "transcription": "test",
+      "russian": "test",
+      "tags": "fsdf",
+      "tags_json": "[\"fsdf\"]"
+   },
+   {
+      "id": "15305",
+      "english": "test",
+      "transcription": "test",
+      "russian": "test",
+      "tags": "",
+      "tags_json": "[\"\"]"
+   },
+   {
+      "id": "15306",
+      "english": "fgfg",
+      "transcription": "dfhhg",
+      "russian": "fdghfhg",
+      "tags": "",
+      "tags_json": "[\"\"]"
+   },
+   {
+      "id": "15307",
+      "english": "dfdf",
+      "transcription": "vdf",
+      "russian": "вавпв",
+      "tags": "",
+      "tags_json": "[\"\"]"
+   }
+]

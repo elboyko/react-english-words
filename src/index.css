@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-accent: blueviolet;
+  --color-font: azure;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0px 15px 50px;
+  margin: 0px auto;
+  background-color: rgb(223, 172, 231);
+}

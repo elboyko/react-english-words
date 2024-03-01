@@ -1,0 +1,21 @@
+.inner {
+   max-width: 900px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+}
+
+.go {
+   width: 230px;
+   padding: 10px 20px;
+   background-color: var(--color-accent);
+   color: var(--color-font);
+   border-radius: 20px 15px;
+   font-size: 20px;
+   border: none;
+   cursor: pointer;
+   height: 80px;
+   margin-left: auto;
+}
