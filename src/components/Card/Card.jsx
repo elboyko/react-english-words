@@ -1,40 +1,22 @@
 import style from "./Card.module.css"
-import { useState } from "react"
-import words from "./letters.json"
+import React, { useState } from "react"
 
-const w =
-{
-   "id": "15272",
-   "english": "dog",
-   "transcription": "[dɒg]",
-   "russian": "собака",
-   "tags": "Animals",
-   "tags_json": "[\"Animals\"]"
-}
-
-function Card() {
+function Card(props) {
+   const { english, transcription, russian } = props;
    const [translate, setTranslate] = useState(false)
 
    function showTranslate() {
-      setTranslate(true)
-   }
-
-   let marking = <button className={style.button} onClick={showTranslate}>Перевести</button>
-   if (translate) {
-      marking = <p className={style.russian}>"{w.russian}"</p>
+      setTranslate(!translate)
    }
    return (
       <>
          <div className={style.card}>
-            <h2 className={style.text}>{w.english}</h2>
-            <p className={style.transcription}>{w.transcription}</p>
-            {/* <button onClick={showTranslate} className={`${style.button}  ${translate ? style.translate : ""}`}>Перевести</button>
-            // {translate ? <p className={style.russian}>"{w.russian}"</p> : ""} */}
-            {marking}
-         </div>
-         <div className={style.box}>
-            <button className={style.next}>Следующее слово</button>
-            <button className={style.done}>Выучено</button>
+            <h2 className={style.text}>{english}</h2>
+            <p className={style.transcription}>{transcription}</p>
+
+            {translate ?
+               <p className={style.russian}>"{russian}"</p> : <button onClick={showTranslate} className={`${style.button}  ${translate ? style.translate : ""}`}>Перевести</button>
+            }
          </div>
       </>
    )

@@ -89,33 +89,17 @@
    },
    {
       "id": "15304",
-      "english": "test",
-      "transcription": "test",
-      "russian": "test",
-      "tags": "fsdf",
-      "tags_json": "[\"fsdf\"]"
+      "english": "Good Buy",
+      "transcription": "ɡʊdˈbaɪ",
+      "russian": "до свидания",
+      "tags": "buy",
+      "tags_json": "[\"buy\"]"
    },
    {
       "id": "15305",
       "english": "test",
       "transcription": "test",
       "russian": "test",
-      "tags": "",
-      "tags_json": "[\"\"]"
-   },
-   {
-      "id": "15306",
-      "english": "fgfg",
-      "transcription": "dfhhg",
-      "russian": "fdghfhg",
-      "tags": "",
-      "tags_json": "[\"\"]"
-   },
-   {
-      "id": "15307",
-      "english": "dfdf",
-      "transcription": "vdf",
-      "russian": "вавпв",
       "tags": "",
       "tags_json": "[\"\"]"
    }

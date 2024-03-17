@@ -1,5 +1,5 @@
 import cat from "../../assets/cat.webp"
-import Card from "../Card/Card"
+import CardSlider from "../CardSlider/CardSlider"
 import style from "./Main.module.css"
 import { useState } from "react"
 
@@ -18,7 +18,8 @@ function Main() {
                <img className={style.image} src={cat} alt="cat" />
             </div>
          </div>
-         {active ? <Card /> : ""}
+         {active ? <CardSlider /> : ""}
+         {/* <CardSlider /> */}
       </>
    )
 }
