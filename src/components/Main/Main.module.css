@@ -1,10 +1,12 @@
 .inner {
    max-width: 900px;
+   height: 100%;
    display: flex;
    margin: 0 auto;
    justify-content: space-between;
    text-align: center;
    align-items: center;
+   margin-bottom: 50px;
 }
 
 .go {
@@ -12,10 +14,23 @@
    padding: 10px 20px;
    background-color: var(--color-accent);
    color: var(--color-font);
-   border-radius: 20px 15px;
+   border-radius: 20px;
    font-size: 20px;
    border: none;
    cursor: pointer;
-   height: 80px;
    margin-left: auto;
+   margin-top: 30px;
+}
+
+.box {
+   display: flex;
+   margin-top: 20px;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.link {
+   color: var(--color-font);
+   text-decoration: none;
 }

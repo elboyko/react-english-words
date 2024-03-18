@@ -4,3 +4,32 @@
    color: var(--color-accent);
    font-size: 40px;
 }
+
+.header {
+   display: flex;
+   text-align: start;
+   align-items: baseline;
+   justify-content: space-around;
+}
+
+.header_link {
+   width: 150px;
+   padding: 8px;
+   background-color: var(--color-accent);
+   color: var(--color-font);
+   border-radius: 20px;
+   font-size: 20px;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+}
+
+.image {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   margin-top: auto;
+   margin-bottom: auto;
+   align-self: start;
+}

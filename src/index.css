@@ -6,12 +6,13 @@
 
 :root {
   --color-accent: blueviolet;
-  --color-font: azure;
+  --color-font: #fefcf8;
+  --color-btn-accent: #eb1fe4;
 }
 
 .container {
   max-width: 1300px;
-  padding: 0px 15px 50px;
+  /* padding: 0px 15px 50px; */
   margin: 0px auto;
   background-color: rgb(223, 172, 231);
 }
