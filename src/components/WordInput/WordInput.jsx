@@ -8,7 +8,7 @@ function WordInput({ english, transcription, russian }) {
    const [isEditWord, setIsEditWord] = useState(false)
 
    const handleEditWord = () => {
-      setIsEditWord(true)
+      setIsEditWord(!isEditWord)
    }
 
    return (
@@ -18,12 +18,13 @@ function WordInput({ english, transcription, russian }) {
                <input className={style.input} defaultValue={english} />
                <input className={style.input} defaultValue={transcription} />
                <input className={style.input} defaultValue={russian} />
-               <div className="btns">
-                  <button className={style.btn_ok}><img src={ok} alt="add" /></button>
+               <div >
+                  <button onClick={() => setIsEditWord(false)} className={style.btn_ok}>
+                     <img src={ok} alt="add" />
+                  </button>
                   <button
                      className={style.btn_close}
-                     onClick={() => setIsEditWord(false)}
-                  >
+                     onClick={() => setIsEditWord(false)}>
                      <img src={close} alt="close" />
                   </button>
                </div>
@@ -33,11 +34,13 @@ function WordInput({ english, transcription, russian }) {
                <div className={style.item}>{english}</div>
                <div className={style.item}>{transcription}</div>
                <div className={style.item}>{russian}</div>
-               <div className="btns">
+               <div>
                   <button className={style.btn_edit} onClick={handleEditWord}>
                      <img src={pensil} alt="edit" />
                   </button>
-                  <button className={style.btn_delete}> <img src={deleteWord} alt="delete" /></button>
+                  <button className={style.btn_delete}>
+                     <img src={deleteWord} alt="delete" />
+                  </button>
                </div>
             </>
          )}

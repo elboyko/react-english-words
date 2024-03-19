@@ -1,10 +1,9 @@
 
 import './App.css'
-import Main from "./components/Main/Main"
 import Header from './components/Header/Header'
 import Footer from "./components/Footer/Footer"
-import { Home, Cards, ErrorPage, Item } from "./Pages"
-import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom"
+import { Home, Cards, ErrorPage, Item } from "./pages"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 function App() {
 
   return (
@@ -20,7 +19,6 @@ function App() {
           </Routes>
         </main>
         <footer> <Footer /></footer>
-
       </div>
     </Router>
   )
